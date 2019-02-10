@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QRCodeScreen> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <QRCodeScanner
+    bottomContent={
+      <View
+        style={
+          Object {
+            "padding": 16,
+          }
+        }
+      />
+    }
+    cameraProps={Object {}}
+    cameraStyle={
+      Object {
+        "height": 1334,
+      }
+    }
+    cameraType="back"
+    checkAndroid6Permissions={true}
+    fadeIn={true}
+    notAuthorizedView={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          Camera not authorized
+        </Text>
+      </View>
+    }
+    onRead={[Function]}
+    pendingAuthorizationView={
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          ...
+        </Text>
+      </View>
+    }
+    permissionDialogMessage="Need camera permission"
+    permissionDialogTitle="Info"
+    reactivate={false}
+    reactivateTimeout={0}
+    showMarker={true}
+    vibrate={true}
+  />
+  <ModalWebView
+    handleButton={[Function]}
+    modalVisible={false}
+    openLink={[Function]}
+    url=""
+  />
+</View>
+`;

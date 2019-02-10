@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The modal is closed 1`] = `
+<Component
+  animationType="slide"
+  hardwareAccelerated={false}
+  transparent={false}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 1264,
+          "width": 700,
+        }
+      }
+    >
+      <WebView
+        automaticallyAdjustContentInsets={false}
+        domStorageEnabled={true}
+        javaScriptEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        source={
+          Object {
+            "uri": "https://google.com.br",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "paddingTop": 10,
+          "width": 700,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[MockFunction]}
+      >
+        <Text>
+          Abrir no navegador
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[MockFunction]}
+      >
+        <Text>
+          Ler outro QRCode
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</Component>
+`;
+
+exports[`renders correctly 1`] = `
+<Component
+  animationType="slide"
+  hardwareAccelerated={false}
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "height": 1264,
+          "width": 700,
+        }
+      }
+    >
+      <WebView
+        automaticallyAdjustContentInsets={false}
+        domStorageEnabled={true}
+        javaScriptEnabled={true}
+        originWhitelist={
+          Array [
+            "http://*",
+            "https://*",
+          ]
+        }
+        source={
+          Object {
+            "uri": "https://google.com.br",
+          }
+        }
+        startInLoadingState={true}
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#FFF",
+          "flexDirection": "row",
+          "height": 30,
+          "justifyContent": "space-around",
+          "paddingTop": 10,
+          "width": 700,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[MockFunction]}
+      >
+        <Text>
+          Abrir no navegador
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[MockFunction]}
+      >
+        <Text>
+          Ler outro QRCode
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </View>
+</Component>
+`;
