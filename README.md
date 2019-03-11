@@ -12,7 +12,7 @@ This application needs [Node.js](https://nodejs.org/) installed together with [N
 
 In addition, it will be necessary for you to have all the necessary environment for running native Android or IOS code or those two platforms
 
-If you need help setting up your environment just follow the [instructions](https://rocketseat.com.br/assets/files/development-environment-rn.pdf) of this tutorial
+If you need help setting up your environment just follow the [instructions](https://rocketseat.com.br/assets/files/ambiente-de-desenvolvimento-rn.pdf) of this tutorial
 
 First use the `` git clone`` after this
 
@@ -33,3 +33,4 @@ $ react-native run-android
 
 $ react-native run-ios
 ```
+To run tests use npm test or yarn test
