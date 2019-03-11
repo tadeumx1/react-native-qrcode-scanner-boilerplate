@@ -10,13 +10,19 @@ import {
     TouchableOpacity,
     StatusBar,
     ActivityIndicator,
-    AsyncStorage
+    AsyncStorage    
 
 } from 'react-native';
 
 import styles from './styles';
 
 export default class Welcome extends Component {
+
+    constructor() {
+        super();
+    
+        this.signIn = this.signIn.bind(this);
+    }
 
     static navigationOptions = {
 
@@ -47,7 +53,7 @@ export default class Welcome extends Component {
 
     }
 
-    signIn = async () => {
+    async signIn () {
 
         const { username } = this.state;
 

@@ -10,6 +10,7 @@ const props = {
 }
 
 describe('<QRCodeScreen>', () => {
+  
   it('renders correctly', () => {
     const wrapper = shallow(<QRCodeScreen />);
     expect(wrapper).toMatchSnapshot();
