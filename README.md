@@ -4,7 +4,7 @@ This is a simple application that helps you scan QRCode with zero configuration,
 
 React Native 0.58.1
  
-React QRCode Scanner 1.1.2
+React Native QRCode Scanner 1.1.2
 
 ### Installation
 
